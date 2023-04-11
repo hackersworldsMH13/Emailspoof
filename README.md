@@ -5,11 +5,11 @@
 Using below script you can send the basic text message to the target email address using the spoofed email with the spoof name. Make sure you do the following changes in the script.py file & config.ini file.
 
 
-receiver_email = ‘<Receivers Email address>’
+receiver_email =‘<Receivers Email address>’
 
-spoofed_email = ‘<Spoofed Email Address>'
+spoofed_email =‘<Spoofed Email Address>'
 
-spoof_name =       ' <spoofed name >'
+spoof_name ='<spoofed name >'
 
 message   =‘<Text Message to send>*
 
@@ -23,11 +23,11 @@ Create a new config.ini
 
 [SMTP]
 
-host smtp-relay.sendinblue.com
+host = smtp-relay.sendinblue.com
 
 port = 587
 
-username -> <Your SMTP Email>
+username = <Your SMTP Email>
 
 password= <Your SMTP Master Password>
 
